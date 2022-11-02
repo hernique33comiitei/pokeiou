@@ -1,0 +1,38 @@
+@media (max-width: 1200px) {
+    .container__form {
+        width: 30vw;
+    }
+}
+
+@media (max-width: 800px) {
+    body {
+        height: calc(var(--vh, 1vh) * 100 )
+    }
+
+    .container__form {
+        width: 40vw;
+    }
+
+    .container__inputTextOrId {
+        font-size: .5em;
+    }
+
+    .container__inputBtn {
+        font-size: .5em;
+    }
+}
+
+@media (max-width: 480px) {
+    
+    .container__namePoke {
+        font-size: 5vmin;
+    }
+
+    .container__idPoke {
+        font-size: 2.5vmin;
+    }
+
+    .container__form {
+        width: 50vw;
+    }
+}
