@@ -48,10 +48,12 @@ const render = async (value) => {
 
         nameHTML.textContent = resposta.name
         idHTML.textContent = `id: ${resposta.id}`
+        img.style.display = 'block'
         img.src = resposta['sprites']['versions']['generation-v']['black-white']['animated']['front_default']
 
         input.value = ''
     } else {
+        img.style.display = 'none'
         nameHTML.textContent = 'NÃO ENCONTRADO'
         idHTML.textContent = 'NÃO ENCONTRADO'
     }
